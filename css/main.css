@@ -48,3 +48,30 @@ a:hover {
 .active:hover {
   color: #080801;
 }
+.jumbotron {
+  background-image: url('../img/banner-bg.png');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 15% 0;
+  text-align: center;
+}
+.jumbotron img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+@media (max-width: 700px) {
+  .jumbotron img {
+    max-width: 50%;
+  }
+}
+.btn-primary {
+  background-color: #f8df1f;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+}
