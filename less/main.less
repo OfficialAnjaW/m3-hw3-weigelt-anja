@@ -1,5 +1,23 @@
 @import "variables";
 
+//Headings & Paragraphs
+
+h2 {
+  .style-heading();
+}
+
+.lowercase-span {
+  text-transform: lowercase;
+}
+
+.red-span {
+  color: @red-primary;
+}
+
+p {
+  .style-p ();
+}
+
 // Header
 
 header {
@@ -32,23 +50,22 @@ a {
 
 // Hero Image
 
-  .jumbotron {
-    background-image: url('../img/banner-bg.png');
-    background-size: cover;
-  	background-position: bottom;
-  	background-repeat: no-repeat;
-    padding: 15% 0;
-    text-align: center;
-
-    img {
-      display: block;
-      margin: 0 auto;
-      padding-bottom: 2%;
-      @media (max-width: 700px) {
-      max-width: 50%;
-      }
+.jumbotron {
+  background-image: url('../img/banner-bg.png');
+  background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+  padding: 15% 0;
+  text-align: center;
+  img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    @media (max-width: 700px) {
+    max-width: 50%;
     }
   }
+}
 
 
 // Buttons
@@ -93,24 +110,11 @@ a {
   }
 }
 
-//Headings
-
-h2 {
-  .style-heading();
-}
-
-.lowercase-span {
-  text-transform: lowercase;
-}
-
-.red-span {
-  color: @red-primary;
-}
-
 // Footer
 
 footer {
   background-color: @black-primary;
+  border-top: 10px solid @yellow-primary;
   padding: 2.5% 0;
   text-align: center;
   img {
