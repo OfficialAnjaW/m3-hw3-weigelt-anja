@@ -16,3 +16,35 @@
   color: #050500;
   font-weight: 500;
 }
+header {
+  background-color: #f8df1f;
+  padding: 3% 0;
+}
+@media (min-width: 1400px) {
+  header {
+    padding: 2% 0;
+  }
+}
+nav {
+  padding-left: 5%;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+}
+a:hover {
+  color: #ee252f;
+}
+.active {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ee252f;
+}
+.active:hover {
+  color: #080801;
+}
